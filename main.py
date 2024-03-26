@@ -2,7 +2,7 @@
 state = {}
 
 # Intiialize the game
-def __init_game():
+def init_game():
     # game board starts with empty values
     state["board"] = {
         "a1": " ", "b1": " ", "c1": " ",
@@ -109,11 +109,11 @@ def check_winner():
             else:
                 init()
         else:
-            __init_game()
+            init_game()
     else:
         if (state["turns"] == 9):
             print("It's a tie!")
-            __init_game()
+            init_game()
         else:
             print_board()
 
@@ -205,7 +205,7 @@ def check_diagonal():
     # no winner has been found
     return False 
 
-
+# initialize the game file
 def init():
     # print intro message to the terminal
     print("""
@@ -219,10 +219,12 @@ def init():
     state["player2_wins"] = 0
     state["ties"] = 0
     
-    num_wins = input("How many wins wuld you like to play to?:")
+    # ask the players how many games they would like to play
+    num_wins = input("How many wins would you like to play to?:")
     state["num_wins"] = num_wins
 
-    __init_game()
+    # start the game
+    init_game()
 
 
 # Call the initialize game function
