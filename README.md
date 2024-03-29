@@ -20,5 +20,7 @@ This is a console game of Tic-Tac-Toe created in Python.  As part of a bonus pro
 
 # Next Steps
 
-- Find and fix possible bugs
-- Refactor code
+- None! This project was done to showcase the quality of the code I can write within a given time frame.
+- Known bugs:
+    - The tie count does not increment in the scoreboard after each game
+    - The user can type anything they want into the prompts for a move (ie A1 = true, D7 = false and throws error)
