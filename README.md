@@ -1,5 +1,14 @@
 # <h1 align="center">Py-Pac-Poe</h1>
 
+<div align="center">
+ <a href="https://www.linkedin.com/in/nicholas-dimartino/" target="_blank">
+      <img src="https://img.shields.io/badge/-linkedin.com/in/ndimartino-blue?style=flat&logo=Linkedin&logoColor=white">
+ </a> 
+ <a href="mailto:nick.l.dimartino@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-nick.l.dimartino@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
+ </a>
+</div>
+
 ## 📝Description
 This is a console game of Tic-Tac-Toe created in Python.  As part of a bonus project for the General Assembly: Software Immersive program, I completed this project in a two hour timeframe.
 
