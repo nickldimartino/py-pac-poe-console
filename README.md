@@ -2,7 +2,7 @@
 
 <div align="center">
  <a href="https://www.linkedin.com/in/nicholas-dimartino/" target="_blank">
-      <img src="https://img.shields.io/badge/-linkedin.com/in/ndimartino-blue?style=flat&logo=Linkedin&logoColor=white">
+      <img src="https://img.shields.io/badge/-linkedin.com/in/nicholasdimartino-blue?style=flat&logo=Linkedin&logoColor=white">
  </a> 
  <a href="mailto:nick.l.dimartino@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-nick.l.dimartino@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
@@ -39,6 +39,7 @@ This is a console game of Tic-Tac-Toe created in Python.  As part of a bonus pro
 ### 📲 Instructions
 <details>
 <summary>How to Play the Game</summary>
+
 1. Run the command 'python3 main.py'.
 
 2. Enter a number of games you and a player would like to play.
@@ -50,7 +51,7 @@ This is a console game of Tic-Tac-Toe created in Python.  As part of a bonus pro
 5. Continue play until a player wins the entered number of games.
 </details>
 
-# Next Steps
+## ⏭️ Next Steps
 
 - [ ] None! This project was done to showcase the quality of the code I can write within a given time frame.
 - [ ] Known bugs:
